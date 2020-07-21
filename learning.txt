@@ -1,3 +1,4 @@
+
 SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
 $ git init
 Initialized empty Git repository in C:/Users/SHOVAN/Desktop/programming/my_app1/.git/
@@ -220,4 +221,38 @@ To https://github.com/ShovanGhosh/myapp.git
    7dac678..821ca9c  master -> master
 
 SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$
+// this is the part for adding branches
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git branch login
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git commit -m "another change"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git check out login
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar commands are
+        checkout
+        check-attr
+        cherry
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git checkout login
+Switched to branch 'login'
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (login)
+$ ls
+app.js  git.txt  index.html  learning.txt
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (login)
+$ git checkout login
+Already on 'login'
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (login)
 $
