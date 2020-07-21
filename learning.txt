@@ -1,0 +1,223 @@
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git init
+Initialized empty Git repository in C:/Users/SHOVAN/Desktop/programming/my_app1/.git/
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git add index.html
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git commit
+[master (root-commit) 5cb050d]  Initial commit
+ 1 file changed, 3 insertions(+)
+ create mode 100644 index.html
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git remote add origin https://github.com/ShovanGhosh/myapp.git
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git remote
+origin
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 230 bytes | 230.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ShovanGhosh/myapp.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git stauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git commit"changed index"
+\git: 'commitchanged index' is not a git command. See 'git --help'.
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git commit "changed index"
+error: pathspec 'changed index' did not match any file(s) known to git
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git commit -m "changed index"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   index.html
+
+no changes added to commit
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ add index
+bash: add: command not found
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git add index
+fatal: pathspec 'index' did not match any files
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git add index.html
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git commit -m "changed index"
+[master 7dac678] changed index
+ 1 file changed, 2 insertions(+)
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 292 bytes | 292.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ShovanGhosh/myapp.git
+   5cb050d..7dac678  master -> master
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ touch  app.js
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git .add
+git: '.add' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git push
+Everything up-to-date
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git commit -m "added js file"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+        app.js
+
+nothing added to commit but untracked files present
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git .add
+git: '.add' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git .*add
+git: '.*add' is not a git command. See 'git --help'.
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git .add
+git: '.add' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git .add
+git: '.add' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git stauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        app.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git .add
+git: '.add' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git add .
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git commit -m "added app.js"
+[master 821ca9c] added app.js
+ 1 file changed, 1 insertion(+)
+ create mode 100644 app.js
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 285 bytes | 285.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ShovanGhosh/myapp.git
+   7dac678..821ca9c  master -> master
+
+SHOVAN@DESKTOP-EKLB8K7 MINGW64 ~/Desktop/programming/my_app1 (master)
+$
